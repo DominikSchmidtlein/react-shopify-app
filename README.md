@@ -8,7 +8,6 @@ Based on [Setting up a Shopify app with Rails 5.1, Webpack, React, and Polaris b
 
 ```
 bundle install
-rake db:create
-rake db:migrate
+yarn install
 foreman start
 ```
