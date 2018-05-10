@@ -1,24 +1,14 @@
-# README
+# React Shopify App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A starting point for a shopify app with react and polaris on the front and rails on the back.
 
-Things you may want to cover:
+Based on [Setting up a Shopify app with Rails 5.1, Webpack, React, and Polaris by Elizabeth Simonian](https://medium.com/@esimonian16/setting-up-a-shopify-app-with-rails-5-1-webpack-react-and-polaris-b8535d911275)
 
-* Ruby version
+## Getting Started
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle install
+rake db:create
+rake db:migrate
+foreman start
+```
